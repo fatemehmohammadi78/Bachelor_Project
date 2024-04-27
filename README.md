@@ -2,6 +2,8 @@
 
 This repository contains my Bachelor's project titled "Market Basket Analysis." The project focuses on applying the Apriori model to analyze a market basket dataset, identifying significant patterns and correlations in customer purchasing behavior. The aim is to extract valuable insights and provide actionable recommendations for business improvement.
 
+You may read the full (Farsi) explanation from `doc/bachelor_project.pdf` file.
+
 ## Introduction
 
 Market Basket Analysis is a data mining technique widely used in retail and e-commerce to uncover associations and relationships between products that are frequently purchased together. By understanding these patterns, businesses can optimize their marketing strategies, improve cross-selling opportunities, and enhance the overall customer shopping experience.
@@ -19,3 +21,32 @@ In this project, I leveraged the Apriori algorithm, a classic association rule m
 
 The market basket dataset used in this project contains transactional data, where each row represents a customer's purchase with the associated products bought in that transaction. The dataset was anonymized and carefully prepared to maintain data privacy.
 
+## How to Run
+
+### Prerequisites
+
+- Python@3.12
+
+### Virtual Environment
+
+Create a virtual environment:
+
+`python -m venv .venv`
+
+Activate it (linux/macos):
+
+`source .venv/bin/activate`
+
+### Requirements
+
+Install project requirements:
+
+`pip install -r requirements.txt`
+
+Install dev requirements (optional):
+
+`pip install -r requirements-dev.txt`
+
+### Run
+
+See and run `apriori.ipynb` file.
